@@ -58,6 +58,12 @@ Learning React 19 concepts and core React basics through hands-on examples.
 - Children props
 - Reusable component patterns
 
+### 🔹 Conditional Rendering
+- If / else conditions
+- Ternary operator
+- Logical `&&` rendering
+- Early return pattern
+
 ---
 
 ## 🛠️ Tech Stack
