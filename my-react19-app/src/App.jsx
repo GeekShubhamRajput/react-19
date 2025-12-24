@@ -7,20 +7,17 @@ import Product from './components/Product.jsx'
 import Greeting from './components/Greeting'
 import UserCard from './components/UserCard.jsx'
 import CardWrapper from './components/CardWrapper.jsx'
+import { Userdetails } from './components/UserDetails.jsx'
+import { UserDetail } from './components/Userdetail.jsx'
 
 function App() {
   return (
     <>
-      <CardWrapper title="React JS"> React is JS library</CardWrapper> 
-      <UserCard name="Clark" age={32} email="clark@gmail.com" />
-      <Greeting />
-      <Greeting message="Good morning" name="Clark"/>
-      <Greeting message="Good morning"/>
-      <Greeting name="Sam"/>
-      <Welcome name="Shubham" />
-      <Welcome name="Clark" />
-      <Welcome name="Diana" />
-      <Product name="Laptop" price={9999} isAvailable={true} categories={['Electronics', 'Computer', 'Gaming']} />
+      <Userdetails name="James" isOnline={true} />
+      <Userdetails name="Clark" isOnline={false} />
+      <hr />
+      <UserDetail name="Evan" isOnline={true} isPremium={true} isNewUser={false} role='admin'/>
+      <UserDetail name="Ben" isOnline={false} isPremium={false} isNewUser={true} role='vip'/>
     </>
   )
 }
