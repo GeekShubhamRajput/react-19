@@ -1,7 +1,7 @@
-export const UserDetail = ({name, isOnline}) => {
+export const UserDetail = ({name, isOnline, isPremium, isNewUser}) => {
   return(
     <div>
-      <h3>{name}</h3>
+      <h3>{name} {isPremium && <span>⭐</span>} {isNewUser && <span>🎉</span>}</h3>
       <span>{isOnline ? '🟢 Online' : 'Offline' }</span>
       <p>{isOnline ? 'Available for chat' : 'Not available for chat' }</p>
       { 
