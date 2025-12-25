@@ -62,7 +62,11 @@ Learning React 19 concepts and core React basics through hands-on examples.
 - If / else conditions
 - Ternary operator
 - Logical `&&` rendering
-- Early return pattern
+- Based on variable
+
+### 🔹 Rendering Lists
+- Rendering lists with map()
+- Using key props correctly
 
 ---
 
