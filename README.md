@@ -67,6 +67,7 @@ Learning React 19 concepts and core React basics through hands-on examples.
 ### 🔹 Rendering Lists
 - Rendering lists with map()
 - Using key props correctly
+- Index as key anti-pattern
 
 ---
 
