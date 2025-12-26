@@ -10,10 +10,12 @@ import CardWrapper from './components/CardWrapper.jsx'
 import { Userdetails } from './components/UserDetails.jsx'
 import { UserDetail } from './components/Userdetail.jsx'
 import { ProductList } from './components/ProductList.jsx'
+import { UserList } from './components/UserList.jsx'
 
 function App() {
   return (
     <>
+      <UserList />
       <ProductList />
     </>
   )
