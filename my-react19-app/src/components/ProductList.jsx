@@ -7,7 +7,7 @@ export const ProductList = () => {
 
   const ProductDetail = products.map((product) => {
           return(
-            <div>
+            <div key={product.id}>
               <h3>{product.name}</h3>
               <p>Price: ${product.price}</p>
             </div>
