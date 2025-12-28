@@ -11,12 +11,13 @@ import { Userdetails } from './components/UserDetails.jsx'
 import { UserDetail } from './components/Userdetail.jsx'
 import { ProductList } from './components/ProductList.jsx'
 import { UserList } from './components/UserList.jsx'
+import { Alert } from './components/Alert.jsx'
 
 function App() {
   return (
     <>
-      <UserList />
-      <ProductList />
+      <Alert>Your profile has been updated!</Alert>
+      <Alert type="error">Something went wrong</Alert>
     </>
   )
 }
