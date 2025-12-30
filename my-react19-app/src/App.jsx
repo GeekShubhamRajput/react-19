@@ -12,12 +12,15 @@ import { UserDetail } from './components/Userdetail.jsx'
 import { ProductList } from './components/ProductList.jsx'
 import { UserList } from './components/UserList.jsx'
 import { Alert } from './components/Alert.jsx'
+import { AlertWithExtCss } from './components/AlertWithExtCss.jsx'
+import { RedButton } from './components/RedButton.jsx'
 
 function App() {
   return (
     <>
-      <Alert>Your profile has been updated!</Alert>
-      <Alert type="error">Something went wrong</Alert>
+      <AlertWithExtCss>Your profile has been updated!</AlertWithExtCss>
+      <AlertWithExtCss type="error">Something went wrong</AlertWithExtCss>
+      <RedButton/>
     </>
   )
 }
