@@ -69,6 +69,11 @@ Learning React 19 concepts and core React basics through hands-on examples.
 - Using key props correctly
 - Index as key anti-pattern
 
+### 🔹 Styling React Components
+- Inline CSS styling
+- External CSS files
+- CSS Modules
+
 ---
 
 ## 🛠️ Tech Stack
