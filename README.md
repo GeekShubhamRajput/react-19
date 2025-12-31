@@ -74,6 +74,11 @@ Learning React 19 concepts and core React basics through hands-on examples.
 - External CSS files
 - CSS Modules
 
+### 🔹 Event Handling
+- Handling user interactions
+- Using event handlers (onClick, onChange)
+- Passing arguments to handlers
+
 ---
 
 ## 🛠️ Tech Stack
