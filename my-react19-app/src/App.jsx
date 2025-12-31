@@ -15,13 +15,12 @@ import { Alert } from './components/Alert.jsx'
 import { AlertWithExtCss } from './components/AlertWithExtCss.jsx'
 import { RedButton } from './components/RedButton.jsx'
 import { Notification } from './components/Notification.jsx'
+import { LikeBotton } from './components/LikeButton.jsx'
 
 function App() {
   return (
     <>
-      <Notification>Your profile has been updated!</Notification>
-      <Notification type="error">Something went wrong</Notification>
-      <RedButton/>
+      <LikeBotton />
     </>
   )
 }
