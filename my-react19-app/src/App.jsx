@@ -16,11 +16,13 @@ import { AlertWithExtCss } from './components/AlertWithExtCss.jsx'
 import { RedButton } from './components/RedButton.jsx'
 import { Notification } from './components/Notification.jsx'
 import { LikeBotton } from './components/LikeButton.jsx'
+import { CustomButton } from './components/CustomButton.jsx'
 
 function App() {
   return (
     <>
-      <LikeBotton />
+      <CustomButton text="Like" buttonClass="success" />
+      <CustomButton text="Subscribe" buttonClass="error" />
     </>
   )
 }
