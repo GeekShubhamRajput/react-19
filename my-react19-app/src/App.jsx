@@ -19,12 +19,12 @@ import { LikeBotton } from './components/LikeButton.jsx'
 import { CustomButton } from './components/CustomButton.jsx'
 import { Contact } from './components/Contact.jsx'
 import { NewsLetter } from './components/NewsLetter.jsx'
+import { Menu } from './components/Menu.jsx'
 
 function App() {
   return (
     <>
-      <Contact />
-      <NewsLetter />
+      <Menu />
     </>
   )
 }
