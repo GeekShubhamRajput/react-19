@@ -17,12 +17,14 @@ import { RedButton } from './components/RedButton.jsx'
 import { Notification } from './components/Notification.jsx'
 import { LikeBotton } from './components/LikeButton.jsx'
 import { CustomButton } from './components/CustomButton.jsx'
+import { Contact } from './components/Contact.jsx'
+import { NewsLetter } from './components/NewsLetter.jsx'
 
 function App() {
   return (
     <>
-      <CustomButton text="Like" buttonClass="success" />
-      <CustomButton text="Subscribe" buttonClass="error" />
+      <Contact />
+      <NewsLetter />
     </>
   )
 }
