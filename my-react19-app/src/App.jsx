@@ -21,11 +21,12 @@ import { Contact } from './components/Contact.jsx'
 import { NewsLetter } from './components/NewsLetter.jsx'
 import { Menu } from './components/Menu.jsx'
 import { Counter } from './components/Counter.jsx'
+import { LoggedInCard } from './components/LoggedInCard.jsx'
 
 function App() {
   return (
     <>
-      <Counter />
+      <LoggedInCard />
     </>
   )
 }
