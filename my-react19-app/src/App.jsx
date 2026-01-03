@@ -20,11 +20,12 @@ import { CustomButton } from './components/CustomButton.jsx'
 import { Contact } from './components/Contact.jsx'
 import { NewsLetter } from './components/NewsLetter.jsx'
 import { Menu } from './components/Menu.jsx'
+import { Counter } from './components/Counter.jsx'
 
 function App() {
   return (
     <>
-      <Menu />
+      <Counter />
     </>
   )
 }
