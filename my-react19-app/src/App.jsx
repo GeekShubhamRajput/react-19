@@ -22,11 +22,12 @@ import { NewsLetter } from './components/NewsLetter.jsx'
 import { Menu } from './components/Menu.jsx'
 import { Counter } from './components/Counter.jsx'
 import { LoggedInCard } from './components/LoggedInCard.jsx'
+import { PrevStateCounter } from './components/PrevStateCounter.jsx'
 
 function App() {
   return (
     <>
-      <LoggedInCard />
+      <PrevStateCounter />
     </>
   )
 }
