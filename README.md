@@ -79,16 +79,17 @@ Learning React 19 concepts and core React basics through hands-on examples.
 - Using event handlers (onClick, onChange)
 - Passing arguments to handlers
 
-### State in React
+### 🔹 State in React
 - Introduction to state
 - Managing component data using useState
 - Updating state and re-rendering components
 - Difference between state and props
 
-## React Hooks
+### 🔹 React Hooks
 - Rules of Hooks
 - How state updates work
 - State as a snapshot
+- SetState using Previous State
 
 ---
 
