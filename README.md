@@ -85,6 +85,11 @@ Learning React 19 concepts and core React basics through hands-on examples.
 - Updating state and re-rendering components
 - Difference between state and props
 
+## React Hooks
+- Rules of Hooks
+- How state updates work
+- State as a snapshot
+
 ---
 
 ## 🛠️ Tech Stack
