@@ -90,6 +90,7 @@ Learning React 19 concepts and core React basics through hands-on examples.
 - How state updates work
 - State as a snapshot
 - SetState using Previous State
+- Batches Updates
 
 ---
 
