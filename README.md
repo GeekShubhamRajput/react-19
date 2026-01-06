@@ -92,6 +92,9 @@ Learning React 19 concepts and core React basics through hands-on examples.
 - SetState using Previous State
 - Batches Updates
 
+### 🔹 useState Hook
+- useState with Objects
+
 ---
 
 ## 🛠️ Tech Stack
