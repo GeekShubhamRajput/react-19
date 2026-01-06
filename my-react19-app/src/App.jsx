@@ -24,11 +24,12 @@ import { Counter } from './components/Counter.jsx'
 import { LoggedInCard } from './components/LoggedInCard.jsx'
 import { PrevStateCounter } from './components/PrevStateCounter.jsx'
 import { BatchingCounter } from './components/BatchingCounter.jsx'
+import { UserProfile } from './components/UserProfile.jsx'
 
 function App() {
   return (
     <>
-      <BatchingCounter />
+      <UserProfile />
     </>
   )
 }
