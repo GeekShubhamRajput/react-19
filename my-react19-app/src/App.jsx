@@ -25,11 +25,12 @@ import { LoggedInCard } from './components/LoggedInCard.jsx'
 import { PrevStateCounter } from './components/PrevStateCounter.jsx'
 import { BatchingCounter } from './components/BatchingCounter.jsx'
 import { UserProfile } from './components/UserProfile.jsx'
+import { TodoList } from './components/TodoList.jsx'
 
 function App() {
   return (
     <>
-      <UserProfile />
+      <TodoList />
     </>
   )
 }
