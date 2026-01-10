@@ -94,6 +94,7 @@ Learning React 19 concepts and core React basics through hands-on examples.
 
 ### 🔹 useState Hook
 - useState with Objects
+- useState with Arrays
 
 ---
 
